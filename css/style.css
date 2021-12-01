@@ -292,8 +292,9 @@ header {
     background: #FBB731;
     border-radius: 5px;
     border: none;
+    display: block;
+    margin: 0 auto;
     margin-bottom: 30px;
-    margin-left: 114px;
     cursor: pointer;
     width: 152px;
     height: 38px;
