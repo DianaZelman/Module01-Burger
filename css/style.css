@@ -258,6 +258,7 @@ header {
     height: 430px;
     position: relative;
     overflow: hidden;
+    margin-bottom: 23px;
 }
 
 .menu-grid-cover img {
@@ -275,8 +276,7 @@ header {
     font-size: 30px;
     text-align: center;
     color: #1B2A49;
-    margin-top: 23px;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .menu-grid-price {
@@ -292,21 +292,24 @@ header {
     background: #FBB731;
     border-radius: 5px;
     border: none;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    cursor: pointer;
     width: 152px;
     height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 9px;
+    margin-bottom: 30px;
+    cursor: pointer;
 }
 
 .menu-grid-icon {
     background-image: url(../img/cart-menu.svg);
-    display: inline-block;
+    display: block;
     width:18px; 
     height:18px;
     background-repeat: no-repeat; 
-    transform: translate(-34%, 14%);
+    background-size: cover;
 }
 
 .menu-grid-text {
@@ -315,6 +318,68 @@ header {
     text-align: center;
     text-transform: uppercase;
     color: #1E2F40;
-    display: inline-block;
-    padding-bottom: 1px;
+}
+
+.footer {
+    background: #1E2F40;
+    color: #fff;
+    padding-top: 117px;
+    padding-bottom: 106px;
+    margin-top: 111px;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    width: 63px;
+    height: 56px;
+}
+
+.footer-item h2 {
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 19px;
+    margin-top: 0;
+}
+
+.footer-item li {
+    margin-bottom: 9px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #FAF9F9;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.footer-item a {
+    color: #DEDEDE;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.footer-item span {
+    color: #DEDEDE;
+    display: block;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+
+.footer-tel ul {
+    font-size: 20px;
+    color: #FBB731;
+    margin-top: 0;
+    font-weight: 900;
+}
+
+.footer-tel li {
+    margin-bottom: 12px;
+}
+
+.footer-list {
+    padding-left: 0;
+    list-style-type: none;
 }
