@@ -790,6 +790,21 @@ header {
     }
 }
 
+@media (max-width: 481px) {
+    .menu-header {
+        gap: 4px;
+    }
+    .menu-grid-title {
+        font-size: 20px;
+    }
+    .menu-select {
+        padding: 13px 18px;
+    }
+    .menu-title {
+        font-size: 35px;
+    }
+}
+
 @media (max-width: 365px) {
     .header {
         padding-bottom: 18px;
