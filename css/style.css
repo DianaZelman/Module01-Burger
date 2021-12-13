@@ -768,7 +768,7 @@ header {
         height: 270px;
     }
     .menu-other .menu-grid-item {
-        flex: 0 0 230px;
+        flex: 0 0 200px;
         padding-bottom: 56px;
     }
     .footer {
@@ -795,7 +795,7 @@ header {
         gap: 4px;
     }
     .menu-grid-title {
-        font-size: 20px;
+        font-size: 19px;
     }
     .menu-select {
         padding: 13px 18px;
@@ -899,10 +899,10 @@ header {
         padding-bottom: 101px;
     }
     .content-title span {
-        font-size: 22px;
+        font-size: 21px;
     }
     .content-title {
-        font-size: 86px;
+        font-size: 71px;
         line-height: 1.5;
     }
     .content-text {
@@ -954,7 +954,7 @@ header {
     .content-text {
         margin-left: 81px;
         margin-right: 81px;
-        text-align: center;
+        /* text-align: center; */
     }
     .wrapper {
         flex-direction: column;
