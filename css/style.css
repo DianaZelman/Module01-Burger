@@ -954,7 +954,6 @@ header {
     .content-text {
         margin-left: 81px;
         margin-right: 81px;
-        /* text-align: center; */
     }
     .wrapper {
         flex-direction: column;
